@@ -184,7 +184,6 @@ void UnityPrintLen(const char* string, const UNITY_UINT32 length)
         }
     }
 }
-
 /*-----------------------------------------------*/
 void UnityPrintNumberByStyle(const UNITY_INT number, const UNITY_DISPLAY_STYLE_T style)
 {
