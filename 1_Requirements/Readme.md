@@ -23,6 +23,7 @@ In the first step the trucks arrives registration of truck will be done where se
 ![SWOT-Sample](https://user-images.githubusercontent.com/82207640/114269046-3a24fc00-9a22-11eb-94d8-631f5b2e5e37.png)
 
 
+
 # 4W&#39;s and 1&#39;H
 
 ## Who:
@@ -47,10 +48,12 @@ In the first step the trucks arrives registration of truck will be done where se
 
 # Detail requirements
 ## High Level Requirements:
-(https://user-images.githubusercontent.com/82207640/114269612-b2d98780-9a25-11eb-948a-dd94977c7a3b.png)
+![image](https://user-images.githubusercontent.com/82207640/114269727-2bd8df00-9a26-11eb-8deb-9ff7d8f81f3c.png)
+
 
 
 
 ##  Low level Requirements:
-(https://user-images.githubusercontent.com/82207640/114269624-c1c03a00-9a25-11eb-809f-9fdad3d2db11.png)
+
+![image](https://user-images.githubusercontent.com/82207640/114269754-4317cc80-9a26-11eb-8bd5-5f2254851952.png)
 
