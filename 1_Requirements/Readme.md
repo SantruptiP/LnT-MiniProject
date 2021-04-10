@@ -7,7 +7,10 @@
 
 ## Research
 ![Description](Link to Pic)
--- Content 
+-- TEVIS is an arrangement where the trucks are involved in unloading the goods systematically the steps involved in this arrangement is 1.Arrival of truck
+2.Calling of truck
+3.Truck departure
+4.Next truck
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
