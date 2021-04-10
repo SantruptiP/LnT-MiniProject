@@ -6,11 +6,14 @@
 4.Next truck                                                          
 
 ## Research
-![Description](Link to Pic)
--- TEVIS is an arrangement where the trucks are involved in unloading the goods systematically the steps involved in this arrangement is 1.Arrival of truck
-2.Calling of truck
-3.Truck departure
-4.Next truck
+1. Register Truck : -> Fill requirement information about supplier and cargo.
+                    -> Receive ticket with queue number.
+2. Calling Truck : -> Checking the ramp.
+                   -> Warehouse manager enters ramp and door no.
+                   -> LED display flashes corresponding ticket,ramp and door no. with GONG sound.
+3. Unloading the truck.
+4. Truck departure : -> Warehouse manager enters to Tevis truck is departing from ramp.
+                     -> Security person enters to TEVIS that truck left territory. 
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
