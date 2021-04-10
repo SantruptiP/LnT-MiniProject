@@ -27,30 +27,30 @@ In the first step the trucks arrives registration of truck will be done where se
 
 ## Who:
 
-**TBD**
+-> Warehouse where trucks load and unload goods.
 
 ## What:
 
-**TBD**
+-> It becomes difficult to manage the count of tructs arriving and departing. TEVIS system enables to keep record of the same.
 
 ## When:
 
-**TBD**
+-> The problem is long prevailing and concept of keeping record and real time showcasing the number of trucks arrived/departed/warehouse empty.
 
 ## Where:
 
-**TBD**
+-> All industry related cargo companies who deal with trasport.
 
 ## How:
 
-**TBD**
+-> The problem can lead to wastage of time. The system brings about synchronization.
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+(https://user-images.githubusercontent.com/82207640/114269612-b2d98780-9a25-11eb-948a-dd94977c7a3b.png)
+
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+(https://user-images.githubusercontent.com/82207640/114269624-c1c03a00-9a25-11eb-809f-9fdad3d2db11.png)
+
