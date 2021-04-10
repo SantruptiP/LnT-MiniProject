@@ -2,7 +2,8 @@
 
 ## High Level Design 
 ---Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
+![HighLevelStructuralDiagram](https://user-images.githubusercontent.com/82207640/114266744-8158c000-9a15-11eb-8d57-9df20fbdc380.png)
+
 ![HighLevelBehaviouralDiagram](https://user-images.githubusercontent.com/82207640/114261680-8dcf1f80-99f9-11eb-8456-8604fd7fe8fd.png)
 
 ## Low Level Design 
