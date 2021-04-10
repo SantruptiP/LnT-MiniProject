@@ -45,7 +45,6 @@
 #else
 #    define UNITY_FUNCTION_ATTR(a) /* ignore */
 #endif
-
 /*-------------------------------------------------------
  * Guess Widths If Not Specified
  *-------------------------------------------------------*/
