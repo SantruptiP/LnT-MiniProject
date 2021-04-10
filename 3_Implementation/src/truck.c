@@ -1,5 +1,5 @@
-#include <tevis.h>
-
+#include<stdio.h>
+#include<math.h>
 struct Truck
 {
   int truckID;
@@ -13,8 +13,6 @@ struct Truck
   void (*addTrkRec)(int *,char *,int *,char *,char*,int *);
 
 }
-
-
 void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime)
 {
   printf("Insert truckID\n");
@@ -29,16 +27,30 @@ void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo
   scanf("%s",drivenBy);
   printf("Insert Arrival Time\n");
   scanf("%d",&arrivalTime);
+  return 1;
 
 }
-
 
 void viewData(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime)
 {
   printf("Truck ID\t Truck Model\t Truck Reg.No.\t Cargo Name\t Driver name\t Arrival Time\n");
   printf("%d\t%s\t%d\t%s\t%s\t%s\t%d\n",truckID,truckModel,truckRegNo,carryingCargo,drivenBy,arrivalTime);
+  return 0;
 }
 
+void SearchData(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime)
+{
+  printf("Enter the truckID needed to be searched:\n");
+  scanf("%d",&Tid);
+  for(i=1;i<=count;i++)
+  {
+    if(Tid==T[i].truckID)
+    T[i].viewData(T[i].truckID,T[i].truckModel,T[i].truckRegNo,T[i].carryingCargo,T[i].drivenBy,T[i].arrivalTime);
+    else
+    printf("Truckid not found\n");
+  }
+    return 0;
+}
 
 void main()
 {
@@ -56,8 +68,6 @@ void main()
     printf("Error opening file\n");
     exit(1);
   }
-  
-  
   switch(ch)
   {
     case 1:
@@ -66,8 +76,6 @@ void main()
       //saving data in file
       fprintf(fp, "%d,%s,%d,%s,%s,%d",T[count].truckID,T[count].truckModel,T[count].truckRegNo,T[count].carryingCargo,T[count].drivenBy,T[count].arrivalTime);
       break;
-      
-      
     case 2:
       printf("Enter the truckID needed to be deleted:\n");
       scanf("%d",&Tid);
@@ -78,21 +86,9 @@ void main()
       }
       count--;
       break;
-      
-      
     case 3:
-      printf("Enter the truckID needed to be searched:\n");
-      scanf("%d",&Tid);
-      for(i=1;i<=count;i++)
-      {
-        if(Tid==T[i].truckID)
-        T[i].viewData(T[i].truckID,T[i].truckModel,T[i].truckRegNo,T[i].carryingCargo,T[i].drivenBy,T[i].arrivalTime);
-        else
-        printf("Truckid not found\n");
-      }
+      SearchData(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime);
       break;
-      
-      
     case 4:
       printf("Displaying all the truck details:\n")
       printf("Truck ID\t Truck Model\t Truck Reg.No.\t Cargo Name\t Driver name\t Arrival Time\n");
@@ -101,8 +97,6 @@ void main()
         T[i].viewData(T[i].truckID,T[i].truckModel,T[i].truckRegNo,T[i].carryingCargo,T[i].drivenBy,T[i].arrivalTime);
       }
       break;
-      
-      
     default:
       printf("Enter the correct number\n");
       break;
