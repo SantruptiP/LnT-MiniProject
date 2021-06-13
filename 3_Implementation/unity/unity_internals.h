@@ -194,7 +194,6 @@
 #endif
 
 #else
-
 /* Floating Point Support */
 #ifndef UNITY_FLOAT_PRECISION
 #define UNITY_FLOAT_PRECISION (0.00001f)
