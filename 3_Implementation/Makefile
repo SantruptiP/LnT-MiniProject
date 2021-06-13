@@ -1,15 +1,15 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = Tevis
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = truck.c\
+src/truck.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
+TEST_SRC = src/truck.c\
 test/test_calculator_operations.c\
 unity/unity.c\
 
