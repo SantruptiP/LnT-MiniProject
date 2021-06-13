@@ -11,7 +11,6 @@ struct Truck
   void (*Register)(int *,char *,int *,char *,char*);
   void (*viewData)(int *,char *,int *,char *,char*);
   void (*addTrkRec)(int *,char *,int *,char *,char*,int *);
-
 }
 void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime)
 {
@@ -28,7 +27,6 @@ void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo
   printf("Insert Arrival Time\n");
   scanf("%d",&arrivalTime);
   return 1;
-
 }
 
 void viewData(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime)
