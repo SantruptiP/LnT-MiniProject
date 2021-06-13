@@ -106,7 +106,6 @@ void verifyTest(void);
 #ifdef UNITY_INCLUDE_PRINT_FORMATTED
 #define TEST_PRINTF(message, ...)                                                                  UnityPrintF(__LINE__, (message), __VA_ARGS__)
 #endif
-
 /* It is not necessary for you to call PASS. A PASS condition is assumed if nothing fails.
  * This method allows you to abort a test immediately with a PASS state, ignoring the remainder of the test. */
 #define TEST_PASS()                                                                                TEST_ABORT()
