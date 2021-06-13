@@ -10,7 +10,7 @@ src/truck.c
 
 # All test source files
 TEST_SRC = src/truck.c\
-test/test_calculator_operations.c\
+test/test_tevis.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
