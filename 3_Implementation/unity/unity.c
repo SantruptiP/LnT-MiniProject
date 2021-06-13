@@ -294,7 +294,6 @@ void UnityPrintNumberHex(const UNITY_UINT number, const char nibbles_to_print)
         }
     }
 }
-
 /*-----------------------------------------------*/
 void UnityPrintMask(const UNITY_UINT mask, const UNITY_UINT number)
 {
