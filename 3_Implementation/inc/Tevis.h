@@ -20,7 +20,6 @@
 * @param[in] arrivalTime
 */
 void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime);
-
 /**
 *  Displays truck records
 * @param[in] truckid 
@@ -31,5 +30,4 @@ void addTrkRec(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo
 * @param[in] arrivalTime
 */
 void viewData(int *truckID,char *truckModel,int *truckRegNo,char *carryingCargo,char *drivenBy,int *arrivalTime);
-
 #endif  /* #define __TEVIS_H__ */
