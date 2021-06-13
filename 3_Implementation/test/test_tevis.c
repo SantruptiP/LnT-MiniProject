@@ -2,7 +2,6 @@
 #include <tevis.h>
 
 #define PROJECT_NAME    "TEVIS"
-
 /* Prototypes for all the test functions */
 void test_addTrkRec(void);
 void test_viewData(void);
