@@ -19,7 +19,7 @@ Folder             | Description
 
 SF ID |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-260162 | Santrupti Patil  | Feature A, B etc    | X No     | X No   |X No   |X No     
+260162 | Santrupti Patil  | Feature A,B,C,D    | 8   |5   |9  |9     
    
 
 ## Challenges Faced and How Was It Overcome
